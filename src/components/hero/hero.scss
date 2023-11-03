@@ -49,12 +49,14 @@
     }
   }
 
-  .slideTextContainer {
+  .sliderTextContainer {
+    width: 50%;
     position: absolute;
     font-size: 50vh;
     bottom: 0;
     white-space: nowrap;
     color: #ffffff09;
+    font-weight: bold;
   }
 
   .imageContainer {

@@ -26,6 +26,20 @@ const textVariants = {
   }
 }
 
+const sliderVariants = {
+  initial: {
+    x: 0
+  },
+  animate: {
+    x: '-220%',
+    transition: {
+      repeat: Infinity,
+      repeatType: 'mirror',
+      duration: 20
+    }
+  }
+}
+
 const Hero = () => {
   return (
     <div className='hero'>
@@ -52,9 +66,14 @@ const Hero = () => {
         </motion.div>
       </div>
       {/* slide text */}
-      <div className='slideTextContainer'>
-        Writer Content Creator Influencer
-      </div>
+      <motion.div
+        className='sliderTextContainer'
+        variants={sliderVariants}
+        initial='initial'
+        animate='animate'
+      >
+        I build App With Joy
+      </motion.div>
       {/* image container */}
       <div className='imageContainer'>
         <img src='/hero.png' alt='développeur' />
