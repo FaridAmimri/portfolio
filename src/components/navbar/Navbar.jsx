@@ -18,14 +18,26 @@ const Navbar = () => {
           FariDigital
         </motion.span>
         <div className='social'>
-          <a href='#'>
-            <img src='/facebook.png' alt='' />
+          <a
+            href='https://web.facebook.com/profile.php?id=100089079309129'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <img src='/facebook.png' alt='facebook' />
           </a>
-          <a href='#'>
-            <img src='/instagram.png' alt='' />
+          <a
+            href='https://www.instagram.com/_faridigital_'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <img src='/instagram.png' alt='instagram' />
           </a>
-          <a href='#'>
-            <img src='/github.png' alt='' />
+          <a
+            href='https://github.com/FaridAmimri'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <img src='/github.png' alt='github' />
           </a>
         </div>
       </div>
