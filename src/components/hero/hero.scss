@@ -4,7 +4,6 @@
   background: linear-gradient(100deg, #0c0c1d, #111132);
   overflow: hidden;
   position: relative;
-  z-index: -1;
 
   .wrapper {
     max-width: 1024px;
@@ -13,7 +12,7 @@
 
     .textContainer {
       height: 100%;
-      width: 50%;
+      width: 70%;
       display: flex;
       flex-direction: column;
       justify-content: center;
