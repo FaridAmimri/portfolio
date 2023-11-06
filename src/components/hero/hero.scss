@@ -60,6 +60,8 @@
 
   .imageContainer {
     height: 100%;
+    display: flex;
+    align-content: center;
     position: absolute;
     top: 0;
     right: 50px;
