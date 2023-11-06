@@ -47,7 +47,7 @@
       }
 
       h1 {
-        font-size: 66px;
+        font-size: 50px;
         font-weight: 100;
       }
 
@@ -57,7 +57,7 @@
         border-radius: 50px;
         background-color: orange;
         border: none;
-        font-size: 24px;
+        font-size: 20px;
         cursor: pointer;
       }
     }
@@ -68,6 +68,7 @@
     display: flex;
     max-width: 1024px;
     margin: auto;
+    margin-bottom: 20px;
 
     .box {
       padding: 20px;
