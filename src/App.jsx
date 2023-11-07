@@ -5,6 +5,7 @@ import Hero from './components/hero/Hero'
 import Navbar from './components/navbar/Navbar'
 import Parallax from './components/parallax/Parallax'
 import Services from './components/services/Services'
+import Projects from './components/projects/Projects'
 
 const App = () => {
   return (
@@ -22,9 +23,9 @@ const App = () => {
       <section id='Projects'>
         <Parallax type='projects' />
       </section>
-      <section>Projet1</section>
-      <section>Projet2</section>
-      <section>Projet3</section>
+      <section>
+        <Projects />
+      </section>
       <section id='Contact'>Contact</section>
     </div>
   )
