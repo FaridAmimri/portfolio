@@ -24,7 +24,7 @@ const ProjectCard = ({ item }) => {
           <motion.div className='textContainer' style={{ y: y }}>
             <h2>{item.title}</h2>
             <p>{item.desc}</p>
-            <a href={item.link} target='_blank'>
+            <a href={item.link} target='_blank' rel='noreferrer'>
               Voir Demo
             </a>
           </motion.div>
