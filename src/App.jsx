@@ -7,6 +7,7 @@ import Parallax from './components/parallax/Parallax'
 import Services from './components/services/Services'
 import Projects from './components/projects/Projects'
 import Contact from './components/contact/Contact'
+import WhatsApp from './components/whatsapp/WhatsApp'
 
 const App = () => {
   return (
@@ -28,6 +29,7 @@ const App = () => {
       <section id='Contact'>
         <Contact />
       </section>
+      <WhatsApp />
     </div>
   )
 }
