@@ -3,6 +3,7 @@
 import './navbar.scss'
 import { motion } from 'framer-motion'
 import Sidebar from '../sidebar/Sidebar'
+import { FaFacebook, FaInstagram, FaGithub } from 'react-icons/fa'
 
 const Navbar = () => {
   return (
@@ -23,21 +24,21 @@ const Navbar = () => {
             target='_blank'
             rel='noreferrer'
           >
-            <img src='/facebook.png' alt='facebook' />
+            <FaFacebook />
           </a>
           <a
             href='https://www.instagram.com/_faridigital_'
             target='_blank'
             rel='noreferrer'
           >
-            <img src='/instagram.png' alt='instagram' />
+            <FaInstagram />
           </a>
           <a
             href='https://github.com/FaridAmimri'
             target='_blank'
             rel='noreferrer'
           >
-            <img src='/github.png' alt='github' />
+            <FaGithub />
           </a>
         </div>
       </div>
