@@ -19,9 +19,17 @@
       display: flex;
       gap: 20px;
 
+      a {
+        width: 20px;
+        height: 20px;
+        background-color: white;
+        border-radius: 50%;
+        overflow: hidden;
+      }
+
       img {
-        width: 18px;
-        height: 18px;
+        width: 100%;
+        height: 100%;
       }
     }
   }
