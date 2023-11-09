@@ -8,10 +8,12 @@ import Services from './components/services/Services'
 import Projects from './components/projects/Projects'
 import Contact from './components/contact/Contact'
 import WhatsApp from './components/whatsapp/WhatsApp'
+import Cursor from './components/cursor/Cursor'
 
 const App = () => {
   return (
     <div>
+      <Cursor />
       <section id='Home'>
         <Navbar />
         <Hero />
