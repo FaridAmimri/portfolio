@@ -6,28 +6,24 @@ import { motion, useInView } from 'framer-motion'
 
 const services = [
   {
-    id: '1',
-    title: 'Branding',
-    description: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem
-velit et placeat repellat.`
+    id: 1,
+    title: 'Design',
+    description: `Intégration de maquettes élégantes avec Figma. Conception sur mesure pour s'adapter à une combinaison parfaite avec votre activité.`
   },
   {
-    id: '2',
-    title: 'Branding',
-    description: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem
-    velit et placeat repellat.`
+    id: 2,
+    title: 'Development',
+    description: `Personnalisation sur mesure selon les besoins de votre marque ou de votre entreprise. Nos sites web sont développés en React, Node et Next.`
   },
   {
-    id: '3',
-    title: 'Branding',
-    description: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem
-    velit et placeat repellat.`
+    id: 3,
+    title: 'Hosting',
+    description: `Hébergement avec Hostinger. Il est fourni avec un immense espace inclus. Le support est proposé 24h/24 et 7j/7. Accès partout à tout moment.`
   },
   {
-    id: '4',
-    title: 'Branding',
-    description: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem
-    velit et placeat repellat.`
+    id: 4,
+    title: 'Deployment',
+    description: `Les bases de données sont gérées avec MongoDB ou PostgreSQL. Nous gérons le déploiement de façon sécurisé avec Vercel et Heroku.`
   }
 ]
 
@@ -83,7 +79,7 @@ const Services = () => {
             <motion.b whileHover={{ color: 'orange' }}>For Your</motion.b>{' '}
             Business.
           </h1>
-          <button>WHAT WE DO?</button>
+          <button>WHAT WE DO ?</button>
         </div>
       </motion.div>
       {/* List Container */}
