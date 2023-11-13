@@ -55,7 +55,7 @@ const Services = () => {
       variants={variants}
       initial='initial'
       ref={ref}
-      animate={isInView && 'animate'}
+      animate={'animate'}
     >
       {/* Text Container */}
       <motion.div className='textContainer' variants={variants}>

@@ -1,4 +1,5 @@
 /** @format */
+@import '../../app.scss';
 
 .cursor {
   width: 50px;
@@ -7,4 +8,8 @@
   border: 1px solid white;
   position: fixed;
   z-index: 999;
+
+  @include mobile {
+    display: none;
+  }
 }
