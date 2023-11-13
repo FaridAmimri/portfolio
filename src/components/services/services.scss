@@ -142,17 +142,20 @@
         }
       }
 
-      button {
-        padding: 10px;
+      a {
+        color: black;
         background-color: orange;
+        padding: 10px;
+        text-align: center;
         border: none;
+        border-radius: 2px;
         cursor: pointer;
 
         @include mobile {
           background-color: transparent;
           border: 1px solid orange;
-          color: orange;
           border-radius: 5px;
+          color: orange;
           width: 50%;
         }
       }

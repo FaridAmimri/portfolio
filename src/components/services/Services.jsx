@@ -29,7 +29,7 @@ const services = [
 
 const variants = {
   initial: {
-    x: -500,
+    x: -100,
     y: 100,
     opacity: 0
   },
@@ -47,7 +47,7 @@ const variants = {
 const Services = () => {
   const ref = useRef()
 
-  const isInView = useInView(ref, { margin: '-100px' })
+  const isInView = useInView(ref)
 
   return (
     <motion.div
@@ -55,7 +55,7 @@ const Services = () => {
       variants={variants}
       initial='initial'
       ref={ref}
-      animate={'animate'}
+      animate={isInView && 'animate'}
     >
       {/* Text Container */}
       <motion.div className='textContainer' variants={variants}>
@@ -92,7 +92,7 @@ const Services = () => {
           >
             <h2>{service.title}</h2>
             <p>{service.description}</p>
-            <button>Go</button>
+            <a href='#Contact'>Go</a>
           </motion.div>
         ))}
       </motion.div>
