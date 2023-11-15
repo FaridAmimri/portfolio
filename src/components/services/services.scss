@@ -24,6 +24,7 @@
       flex-direction: column;
       align-self: center;
       align-items: center;
+      flex: unset;
     }
 
     p {
@@ -113,8 +114,11 @@
     margin-bottom: 20px;
 
     @include mobile {
-      flex-direction: column;
       width: 100%;
+      padding: 30px;
+      margin-bottom: unset;
+      max-width: unset;
+      overflow-x: scroll;
     }
 
     .box {
@@ -127,18 +131,18 @@
       gap: 15px;
 
       @include mobile {
-        border: none;
         align-items: center;
-        gap: 10px;
-        padding: 5px;
+        gap: 5px;
       }
 
       p {
-        font-size: 15px;
-        font-weight: 300;
+        font-size: 16px;
+        font-weight: 200;
+        color: gray;
 
         @include mobile {
-          display: none;
+          text-align: center;
+          width: 250px;
         }
       }
 

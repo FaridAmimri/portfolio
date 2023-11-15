@@ -9,14 +9,14 @@ const items = [
   {
     id: 1,
     title: 'Order App',
-    desc: `Site de commande en ligne. Développé en Next13. Base de données avec PostgreSQL et Prisma. Intégration du design utilisant Tailwind. Zustand pour la gestion des states. Authentification avec Next Auth Google et Facebook. Paiement avec Stripe. Site hébergé chez Vercel.`,
+    desc: `Site de commande en ligne. Développé en Next. Base de données avec PostgresQL et Prisma. Intégration du design utilisant Tailwind. Zustand pour la gestion des states. Authentification avec Next Auth Google et Facebook. Paiement avec Stripe. Site hébergé chez Vercel.`,
     img: '/ordering.jpg',
     link: 'https://burgerhouse-six.vercel.app/'
   },
   {
     id: 2,
     title: 'Shopping App',
-    desc: `Boutique en ligne développée en MERN. Base de données avec MongoDB. Intégration du design utilisant StyledComponent. Redux Toolkit pour la gestion des states. Paiement avec Stripe. Authentification avec JWT et CryptoJS. Site hébergé chez Heroku.`,
+    desc: `Boutique en ligne développée en MERN (MongoDB, Express, React, Node). Base de données avec MongoDB. Intégration du design utilisant StyledComponent. Redux Toolkit pour la gestion des states. Paiement avec Stripe. Authentification avec JWT et CryptoJS. Site hébergé chez Heroku.`,
     img: '/ecommerce.jpg',
     link: 'https://www.safiyapurecom.fr/'
   },
