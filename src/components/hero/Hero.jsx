@@ -52,7 +52,9 @@ const Hero = () => {
           animate='animate'
         >
           <motion.h2 variants={textVariants}>FARID AMIMRI</motion.h2>
-          <motion.h1 variants={textVariants}>Full Stack Developer</motion.h1>
+          <motion.h1 variants={textVariants}>
+            Full Stack JavaScript Developer
+          </motion.h1>
           <motion.div className='buttons' variants={textVariants}>
             <motion.a href='#Projects' variants={textVariants}>
               Our Works
