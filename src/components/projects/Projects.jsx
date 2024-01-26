@@ -8,22 +8,41 @@ import ProjectCard from '../projectCard/ProjectCard'
 const items = [
   {
     id: 1,
-    title: 'Order App',
-    desc: `Site de commande en ligne. Développé en Next. Base de données avec PostgresQL et Prisma. Intégration du design utilisant Tailwind. Zustand pour la gestion des states. Authentification avec Next Auth Google et Facebook. Paiement avec Stripe. Site hébergé chez Vercel.`,
+    title: 'Car Rental Web App',
+    stack: `Next - Tailwind - Framer Motion - PostgresQL - Prisma - Next Auth`,
+    testimonial: `Un grand merci à FariDigital pour nous avoir développé notre site de location de voiture.
+    Nous avons un site à la fois moderne et design.
+    Disponible et attentif, Farid est un développeur qui aime son métier.`,
+    name: 'Abdeslem El Boukhrissi, Gérant',
+    img: '/rental.jpg',
+    link: 'https://gvarentcar.com/'
+  },
+  {
+    id: 2,
+    title: 'Food Ordering App',
+    stack: `Next - Tailwind - Zustand - PostgresQL - Prisma - Next Auth - Stripe`,
+    testimonial: `Je tiens à exprimer ma satisfaction pour la création de mon site Burger House sur mesure. L’expertise et l’expérience en développement web de Farid ont fait la différence. Le résultat va au delà de ce que j'attendais.`,
+    name: 'Ahmed Achir, Gérant',
     img: '/ordering.jpg',
     link: 'https://burgerhouse-six.vercel.app/'
   },
   {
-    id: 2,
-    title: 'Shopping App',
-    desc: `Boutique en ligne développée en MERN (MongoDB, Express, React, Node). Base de données avec MongoDB. Intégration du design utilisant StyledComponent. Redux Toolkit pour la gestion des states. Paiement avec Stripe. Authentification avec JWT et CryptoJS. Site hébergé chez Heroku.`,
+    id: 3,
+    title: 'Shopping Web App',
+    stack: `React - StyledComponent - MongoDB - Redux - Node - Jwt/CryptoJS - Stripe`,
+    testimonial: `Un grand merci à FariDigital pour nous avoir développé notre site e-commerce SafiyaPure.
+    Nous avons un site à la fois moderne et design.
+    Disponible et attentif, Farid est un développeur qui aime son métier.`,
+    name: 'Btissame Essabid, Associée',
     img: '/ecommerce.jpg',
     link: 'https://www.safiyapurecom.fr/'
   },
   {
-    id: 3,
-    title: 'Blog App',
-    desc: `Blog en ligne développé en Next13. Base de données avec MongoDB. Intégration du design utilisant NextJs Styling. Authentification avec Next Auth Credentials et Google. Site hébergé chez Vercel.`,
+    id: 4,
+    title: 'Blog Web App',
+    stack: `Next - Sass - MongoDB - Axios - Next Auth `,
+    name: 'Majda El Ghazi, Graphiste',
+    testimonial: `Super service ! Disponible, rapide, attentif... Farid est tout simplement cool et pro ! Un plaisir de travailler avec lui pour un résultat vraiment au top. Je recommande 100x !`,
     img: '/blog.jpg',
     link: 'https://www.le-createlier.fr/'
   }
