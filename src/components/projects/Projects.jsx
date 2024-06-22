@@ -31,12 +31,12 @@ const items = [
     name: 'Majda El Ghazi, Graphiste',
     testimonial: `Super service ! Disponible, rapide, attentif... Farid est tout simplement cool et pro ! Un plaisir de travailler avec lui pour un résultat vraiment au top. Je recommande 100x !`,
     img: '/blog.jpg',
-    link: 'https://www.le-createlier.fr/'
+    link: 'https://lecreatelier.vercel.app/'
   },
   {
     id: 4,
     title: 'Showcase Web App',
-    stack: `Vite - React - Tailwind - Shadcn/ui - TypeScript - Lucide - SmtpJs`,
+    stack: `Vite - React - Tailwind - Shadcn/ui - React-Toastify - TypeScript - Lucide - SmtpJs`,
     testimonial: `Farid est rapide, rigoureux et d’une grande bienveillance. Le résultat correspond à ce que j’attendais. J’avais l’impression d’avoir un partenaire à mes côtés pour réaliser mon site.
     Je suis ravi d’avoir travaillé avec toi !`,
     name: 'Yazid Mamouri, Juriste',
